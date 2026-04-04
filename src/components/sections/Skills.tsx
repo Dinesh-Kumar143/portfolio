@@ -11,7 +11,6 @@ export default function Skills() {
   return (
     <section id="skills" className="py-24 bg-white">
       <div className="max-w-[1200px] mx-auto px-13">
-
         {/* Header */}
         <div className="flex items-end justify-between mb-13 gap-6 max-md:flex-col max-md:items-start">
           <div>
@@ -21,8 +20,8 @@ export default function Skills() {
             </h2>
           </div>
           <p className="reveal text-[15px] text-[#3a3a3a] leading-[1.75] max-w-[340px]">
-            A versatile toolkit refined across 5+ years of production engineering at
-            industry-leading companies.
+            A versatile toolkit refined across 1+ years of production
+            engineering at industry-leading companies.
           </p>
         </div>
 
@@ -35,7 +34,9 @@ export default function Skills() {
             >
               {/* Column header */}
               <div className="px-5 py-4 border-b border-[#e4e0da] flex items-center gap-2.5">
-                <div className={`w-[30px] h-[30px] rounded-md ${group.iconBg} flex items-center justify-center text-[14px] flex-shrink-0`}>
+                <div
+                  className={`w-[30px] h-[30px] rounded-md ${group.iconBg} flex items-center justify-center text-[14px] flex-shrink-0`}
+                >
                   {group.icon}
                 </div>
                 <span className="text-[11px] font-semibold tracking-[0.12em] uppercase text-[#3a3a3a]">
@@ -46,7 +47,11 @@ export default function Skills() {
               {/* Skills */}
               <div className="px-5 pt-3.5 pb-5 flex flex-col gap-3">
                 {group.skills.map((skill) => (
-                  <SkillBar key={skill.name} skill={skill} barColor={group.barColor} />
+                  <SkillBar
+                    key={skill.name}
+                    skill={skill}
+                    barColor={group.barColor}
+                  />
                 ))}
               </div>
             </div>
