@@ -17,7 +17,7 @@ A modern, fully responsive portfolio website built with Next.js 15, TypeScript, 
 
 ## 📋 Prerequisites
 
-- Node.js 18+ 
+- Node.js 18+
 - npm, yarn, or pnpm
 - Brevo account (for contact form email service)
 - Google reCAPTCHA account (optional, for spam protection)
@@ -25,12 +25,14 @@ A modern, fully responsive portfolio website built with Next.js 15, TypeScript, 
 ## 🛠️ Installation
 
 1. **Clone the repository**
+
    ```bash
-   git clone https://github.com/yourusername/portfolio.git
+   git clone https://github.com/Dinesh-Kumar143/portfolio.git
    cd portfolio
    ```
 
 2. **Install dependencies**
+
    ```bash
    npm install
    # or
@@ -40,8 +42,9 @@ A modern, fully responsive portfolio website built with Next.js 15, TypeScript, 
    ```
 
 3. **Set up environment variables**
-   
+
    Create a `.env.local` file in the root directory:
+
    ```env
    # Brevo Email Service
    BREVO_API_KEY=your_brevo_api_key_here
@@ -57,6 +60,7 @@ A modern, fully responsive portfolio website built with Next.js 15, TypeScript, 
    **Note:** Never commit `.env.local` to version control. It's already in `.gitignore`.
 
 4. **Run the development server**
+
    ```bash
    npm run dev
    ```
@@ -100,18 +104,20 @@ portfolio/
 ### Update Personal Information
 
 Edit `src/data/personal.ts` to update your personal details:
+
 ```typescript
 export const personalInfo = {
   name: "Your Name",
   title: "Your Title",
   email: "your.email@example.com",
   // ... more fields
-}
+};
 ```
 
 ### Add Projects
 
 Edit `src/data/projects.ts` to add or modify projects:
+
 ```typescript
 {
   id: 1,
@@ -127,6 +133,7 @@ Edit `src/data/projects.ts` to add or modify projects:
 ### Update Skills
 
 Edit `src/data/skills.ts` to modify your skill set:
+
 ```typescript
 {
   id: "frontend",
@@ -195,6 +202,7 @@ This project is open source and available under the [MIT License](LICENSE).
 ## 👤 Author
 
 **Your Name**
+
 - GitHub: [@yourusername](https://github.com/yourusername)
 - LinkedIn: [Your Name](https://linkedin.com/in/yourprofile)
 - Email: your.email@example.com
