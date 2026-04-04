@@ -51,10 +51,6 @@ A modern, fully responsive portfolio website built with Next.js 15, TypeScript, 
    RECIPIENT_EMAIL=your_email@example.com
    BREVO_SENDER_EMAIL=noreply@yourdomain.com
    BREVO_SENDER_NAME=Portfolio Contact Form
-
-   # Google reCAPTCHA (Optional)
-   RECAPTCHA_SECRET_KEY=your_recaptcha_secret_key
-   NEXT_PUBLIC_RECAPTCHA_SITE_KEY=your_recaptcha_site_key
    ```
 
    **Note:** Never commit `.env.local` to version control. It's already in `.gitignore`.
@@ -65,7 +61,7 @@ A modern, fully responsive portfolio website built with Next.js 15, TypeScript, 
    npm run dev
    ```
 
-   Open [http://localhost:3000](http://localhost:3000) to view the site.
+   Open [https://dinesh-kumar-n-portfolio.vercel.app/](https://dinesh-kumar-n-portfolio.vercel.app/) to view the site.
 
 ## 📁 Project Structure
 
