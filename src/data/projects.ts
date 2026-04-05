@@ -4,6 +4,19 @@ export const projects: Project[] = [
   {
     id: 1,
     num: "Project 01",
+    title: "Portfolio Website",
+    description:
+      "Full-stack portfolio website with Next.js and TypeScript, featuring responsive design, smooth scroll animations, and contact form with email integration for professional networking",
+    tags: ["Next.js", "TypeScript", "Tailwind CSS", "React.js", "Responsive Design", "Brevo(email service)"],
+    liveUrl: "https://dinesh-kumar-n-portfolio.vercel.app/",
+    githubUrl: "https://github.com/Dinesh-Kumar143/portfolio",
+    thumbClass: "from-[#0f2027] via-[#203a43] to-[#2c5364]",
+    imageUrl: "/projects/portfolio-website.png", // Add your screenshot here
+    
+  },
+  {
+    id: 2,
+    num: "Project 02",
     title: "MERN Authentication System",
     description:
       "Full-stack authentication system with secure JWT token generation, password encryption using bcrypt, and automated email functionality for welcome messages and password resets.",
@@ -16,8 +29,8 @@ export const projects: Project[] = [
 
   },
   {
-    id: 2,
-    num: "Project 02",
+    id: 3,
+    num: "Project 03",
     title: "Weather Web App",
     description:
       "React.js weather application with real-time data from OpenWeatherMap API, featuring dynamic weather updates with temperature, conditions, and location-based details in a clean, responsive UI.",
@@ -28,8 +41,8 @@ export const projects: Project[] = [
     imageUrl: "/projects/weather-app.png", // Add your screenshot here
   },
   {
-    id: 3,
-    num: "Project 03",
+    id: 4,
+    num: "Project 04",
     title: "Caesar Cipher Website",
     description:
       "Fully responsive React.js web application implementing Caesar cipher encryption and decryption. Features an intuitive interface for secure text transformation and optimized cross-device responsiveness.",
@@ -40,8 +53,8 @@ export const projects: Project[] = [
     imageUrl: "/projects/caesar-cipher.png", // Add your screenshot here
   },
   {
-    id: 4,
-    num: "Project 04",
+    id: 5,
+    num: "Project 05",
     title: "404-Squad Website",
     description:
       "Fully responsive static website built with HTML, CSS, and JavaScript during an in-class competition. Applied mobile-first design approach for optimal viewing and smooth navigation across all devices.",
