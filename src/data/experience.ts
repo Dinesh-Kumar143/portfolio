@@ -16,9 +16,7 @@ export const experiences: Experience[] = [
   },
   {
     id: 2,
-    // period: "2023 — Dec-2025",
-
-    
+    period: "2023 — Dec-2025",
     company: "Self-Employed / University Projects",
     location: "Karachi, Sindh, Pakistan",
     role: "Full Stack Web Developer",
@@ -29,6 +27,7 @@ export const experiences: Experience[] = [
       "Managed the complete development lifecycle from requirement analysis and system design to testing and deployment, demonstrating strong problem-solving and independent development skills.",
       "Collaborated on academic and personal projects using Git and structured workflows, while continuously adopting modern tools and best practices to improve performance, scalability, and maintainability."
     ],
+    // period: ""
   },
 
 ];
