@@ -35,41 +35,7 @@
   ::-webkit-scrollbar-thumb { background: var(--accent); border-radius: 4px; }
 }
 
-/* ─── REVEAL ─────────────────────────────────────────
-   Key fix: NO transition on the base .reveal class.
-   Transition is only added when .in is present.
-   This prevents a flash-to-hidden when the hook
-   resets elements on back-navigation.
-──────────────────────────────────────────────────── */
-/* .reveal {
-  opacity: 0;
-  transform: translateY(26px);
-} */
-.reveal {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-/* Transition fires only when .in is being applied */
-.reveal.in {
-  opacity: 1;
-  transform: translateY(0);
-  transition: opacity 0.7s var(--ease), transform 0.7s var(--ease);
-}
-
-.reveal-d1.in { transition-delay: 0.1s; }
-.reveal-d2.in { transition-delay: 0.2s; }
-.reveal-d3.in { transition-delay: 0.3s; }
-.reveal-d4.in { transition-delay: 0.4s; }
-
-/* ─── HERO ENTRY ANIMATIONS ──────────────────────── */
-.hero-anim-1 { animation: fadeUp 0.6s 0.1s var(--ease) backwards; }
-.hero-anim-2 { animation: fadeUp 0.7s 0.2s var(--ease) backwards; }
-.hero-anim-3 { animation: fadeUp 0.7s 0.3s var(--ease) backwards; }
-.hero-anim-4 { animation: fadeUp 0.7s 0.4s var(--ease) backwards; }
-.hero-anim-5 { animation: fadeUp 0.7s 0.5s var(--ease) backwards; }
-.hero-anim-6 { animation: fadeUp 0.8s 0.35s var(--ease) backwards; }
-.hero-fade   { animation: fadeIn 1s 1.2s backwards; }
+/* ─── HERO ENTRY ANIMATIONS (handled by framer-motion) ── */
 
 /* ─── ANIMATIONS ─────────────────────────────────── */
 @keyframes fadeUp {
@@ -102,25 +68,9 @@
   animation: scroll-bar 1.5s ease-in-out infinite;
 }
 
-/* ─── SKILL BAR FILL ─────────────────────────────── */
-.bar-fill {
-  width: 0;
-  height: 3px;
-  border-radius: 2px;
-  transition: width 1.3s var(--ease);
-}
+/* ─── SKILL BAR FILL (handled by framer-motion) ─── */
 
-/* ─── TIMELINE ITEM ──────────────────────────────── */
-.tl-item {
-  opacity: 0;
-  transform: translateX(18px);
-}
-
-.tl-item.in {
-  opacity: 1;
-  transform: translateX(0);
-  transition: opacity 0.6s var(--ease), transform 0.6s var(--ease);
-}
+/* ─── TIMELINE ITEM (handled by framer-motion) ──── */
 
 /* ─── NAV UNDERLINE ──────────────────────────────── */
 .nav-link::after {

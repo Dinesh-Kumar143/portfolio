@@ -16,7 +16,9 @@ export const experiences: Experience[] = [
   },
   {
     id: 2,
-    period: "2024 — 2025",
+    // period: "2023 — Dec-2025",
+
+    
     company: "Self-Employed / University Projects",
     location: "Karachi, Sindh, Pakistan",
     role: "Full Stack Web Developer",

@@ -1,10 +1,26 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  allowedDevOrigins: ["192.168.10.1"],
+  images: {
+    remotePatterns: [
+      // Cloudinary direct image URLs
+      {
+        protocol: "https",
+        hostname: "res.cloudinary.com",
+      },
+      // Microlink screenshots
+      {
+        protocol: "https",
+        hostname: "**.microlink.io",
+      },
+      // Allow any https image source (covers screenshot services, etc.)
+      {
+        protocol: "https",
+        hostname: "**",
+      },
+    ],
+  },
 };
-module.exports = {
-  allowedDevOrigins: ['192.168.10.1'],
-}
 
 export default nextConfig;

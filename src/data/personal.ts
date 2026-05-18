@@ -9,7 +9,7 @@ export const personalInfo: PersonalInfo = {
     remoteLabel: "Remote OK",
     bio: "I'm Dinesh Kumar — a full-stack engineer with 1+ years crafting high-performance web applications. From system design to polished frontends, I bring ideas to life with clean code and sharp execution.",
     tagline: "products that scale.",
-    email: "dineshnarwani143@gmail.com",
+    email: "dineshnarwani175@gmail.com",
     phone: "+92 336-3802440",
     company: "Open to work",
     education: "B.Sc. Computer Science, UOK",
